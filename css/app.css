@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+body input {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+body #click {
+  background: #000;
+  width: 100px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fff;
+  margin: 20px auto;
+}
+
+body #random {
+  display: block;
+  margin: 20px auto;
+}
+
+body #hideShow {
+  cursor: pointer;
+}
+/*# sourceMappingURL=app.css.map */

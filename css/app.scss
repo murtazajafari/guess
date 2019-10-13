@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    input {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    #click{
+        background: #000;
+        width: 100px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #fff;;
+        margin: 20px auto;
+    }
+    #random{
+        display: block;
+        margin: 20px auto;
+    }
+    #hideShow {
+        cursor: pointer;
+    }
+}
