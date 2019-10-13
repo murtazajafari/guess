@@ -10,14 +10,15 @@ function myFunction() {
             result.innerHTML = 'OOPS SORRY!! JUST NUMBER';
         } else {
             if (random == guess) {
-                result.innerHTML = 'CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN ' + guess + ' GUESS ';
+                chance++;
+                result.innerHTML = 'CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN ' + chance + ' GUESS ';
             } else if (random > guess) {
                 chance++;
-                result.innerHTML = 'OOPS SORRY!! TRY A LARGER NUMBER. ' + chance + 'Chance';
+                result.innerHTML = 'OOPS SORRY!! TRY A LARGER NUMBER. ' + chance + ' Chance';
 
             } else if (random < guess) {
                 chance++;
-                result.innerHTML = 'OOPS SORRY!! TRY A SMALLER NUMBER. ' + chance + 'Chance';
+                result.innerHTML = 'OOPS SORRY!! TRY A SMALLER NUMBER. ' + chance + ' Chance';
 
             }
         }
